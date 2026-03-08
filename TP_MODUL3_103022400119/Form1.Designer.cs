@@ -50,7 +50,6 @@
             lblOutput.Name = "lblOutput";
             lblOutput.Size = new Size(278, 63);
             lblOutput.TabIndex = 0;
-            lblOutput.Text = "0\r\n";
             lblOutput.Click += label1_Click;
             // 
             // btn1
@@ -61,6 +60,7 @@
             btn1.TabIndex = 1;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = true;
+            btn1.Click += btnAngka_Click;
             // 
             // btn2
             // 
@@ -70,6 +70,7 @@
             btn2.TabIndex = 2;
             btn2.Text = "2";
             btn2.UseVisualStyleBackColor = true;
+            btn2.Click += btnAngka_Click;
             // 
             // btn3
             // 
@@ -79,6 +80,7 @@
             btn3.TabIndex = 3;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = true;
+            btn3.Click += btnAngka_Click;
             // 
             // btn4
             // 
@@ -88,6 +90,7 @@
             btn4.TabIndex = 4;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = true;
+            btn4.Click += btnAngka_Click;
             // 
             // btn5
             // 
@@ -97,6 +100,7 @@
             btn5.TabIndex = 5;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = true;
+            btn5.Click += btnAngka_Click;
             // 
             // btn6
             // 
@@ -106,6 +110,7 @@
             btn6.TabIndex = 6;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = true;
+            btn6.Click += btnAngka_Click;
             // 
             // btn7
             // 
@@ -115,6 +120,7 @@
             btn7.TabIndex = 7;
             btn7.Text = "7";
             btn7.UseVisualStyleBackColor = true;
+            btn7.Click += btnAngka_Click;
             // 
             // btn8
             // 
@@ -124,6 +130,7 @@
             btn8.TabIndex = 8;
             btn8.Text = "8";
             btn8.UseVisualStyleBackColor = true;
+            btn8.Click += btnAngka_Click;
             // 
             // btn9
             // 
@@ -133,6 +140,7 @@
             btn9.TabIndex = 9;
             btn9.Text = "9";
             btn9.UseVisualStyleBackColor = true;
+            btn9.Click += btnAngka_Click;
             // 
             // btnPlus
             // 
@@ -142,6 +150,7 @@
             btnPlus.TabIndex = 10;
             btnPlus.Text = "+";
             btnPlus.UseVisualStyleBackColor = true;
+            btnPlus.Click += btnPlus_Click;
             // 
             // btn0
             // 
@@ -151,6 +160,7 @@
             btn0.TabIndex = 11;
             btn0.Text = "0";
             btn0.UseVisualStyleBackColor = true;
+            btn0.Click += btnAngka_Click;
             // 
             // btnEqual
             // 
@@ -160,6 +170,7 @@
             btnEqual.TabIndex = 12;
             btnEqual.Text = "=";
             btnEqual.UseVisualStyleBackColor = true;
+            btnEqual.Click += btnEqual_Click;
             // 
             // Form1
             // 
